@@ -64,12 +64,6 @@
     <Compile Include="Lib2.Designer.cs">
       <DependentUpon>Lib2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Lib3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Lib3.Designer.cs">
-      <DependentUpon>Lib3.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -80,9 +74,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Lib2.resx">
       <DependentUpon>Lib2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Lib3.resx">
-      <DependentUpon>Lib3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -133,6 +124,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8_cs_120px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_literature_80px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_favorites_80px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

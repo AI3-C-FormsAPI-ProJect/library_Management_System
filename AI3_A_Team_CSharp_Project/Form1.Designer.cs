@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.mainTitle1 = new System.Windows.Forms.PictureBox();
-            this.LibButton3 = new System.Windows.Forms.Button();
             this.mainExit = new System.Windows.Forms.PictureBox();
             this.libButton2 = new System.Windows.Forms.Button();
             this.libButton1 = new System.Windows.Forms.Button();
@@ -51,24 +50,6 @@
             this.mainTitle1.TabIndex = 5;
             this.mainTitle1.TabStop = false;
             // 
-            // LibButton3
-            // 
-            this.LibButton3.BackColor = System.Drawing.SystemColors.Highlight;
-            this.LibButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.LibButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.LibButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.LibButton3.Font = new System.Drawing.Font("D2Coding", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.LibButton3.Image = global::AI3_A_Team_CSharp_Project.Properties.Resources.icons8_favorites_40px;
-            this.LibButton3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.LibButton3.Location = new System.Drawing.Point(12, 310);
-            this.LibButton3.Name = "LibButton3";
-            this.LibButton3.Size = new System.Drawing.Size(158, 81);
-            this.LibButton3.TabIndex = 4;
-            this.LibButton3.Text = "인기 대출도서 조회";
-            this.LibButton3.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.LibButton3.UseVisualStyleBackColor = false;
-            this.LibButton3.Click += new System.EventHandler(this.button1_Click_1);
-            // 
             // mainExit
             // 
             this.mainExit.BackColor = System.Drawing.Color.Transparent;
@@ -89,14 +70,15 @@
             this.libButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.libButton2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.libButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.libButton2.Font = new System.Drawing.Font("D2Coding", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.libButton2.Image = global::AI3_A_Team_CSharp_Project.Properties.Resources.icons8_combo_chart_40px;
+            this.libButton2.Font = new System.Drawing.Font("D2Coding", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.libButton2.ForeColor = System.Drawing.Color.White;
+            this.libButton2.Image = global::AI3_A_Team_CSharp_Project.Properties.Resources.icons8_favorites_80px;
             this.libButton2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.libButton2.Location = new System.Drawing.Point(12, 223);
+            this.libButton2.Location = new System.Drawing.Point(12, 269);
             this.libButton2.Name = "libButton2";
-            this.libButton2.Size = new System.Drawing.Size(158, 81);
+            this.libButton2.Size = new System.Drawing.Size(158, 122);
             this.libButton2.TabIndex = 2;
-            this.libButton2.Text = "대출도서 데이터 조회";
+            this.libButton2.Text = "인기 대출도서";
             this.libButton2.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.libButton2.UseVisualStyleBackColor = false;
             this.libButton2.Click += new System.EventHandler(this.button2_Click);
@@ -107,14 +89,15 @@
             this.libButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.libButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.libButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.libButton1.Font = new System.Drawing.Font("D2Coding", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.libButton1.Image = global::AI3_A_Team_CSharp_Project.Properties.Resources.icons8_literature_40px;
+            this.libButton1.Font = new System.Drawing.Font("D2Coding", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.libButton1.ForeColor = System.Drawing.Color.White;
+            this.libButton1.Image = global::AI3_A_Team_CSharp_Project.Properties.Resources.icons8_literature_80px_1;
             this.libButton1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.libButton1.Location = new System.Drawing.Point(12, 136);
+            this.libButton1.Location = new System.Drawing.Point(12, 141);
             this.libButton1.Name = "libButton1";
-            this.libButton1.Size = new System.Drawing.Size(158, 81);
+            this.libButton1.Size = new System.Drawing.Size(158, 122);
             this.libButton1.TabIndex = 1;
-            this.libButton1.Text = "도서관별 장서";
+            this.libButton1.Text = "도서관별 장서&&\r\n대출현황";
             this.libButton1.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.libButton1.UseVisualStyleBackColor = false;
             this.libButton1.Click += new System.EventHandler(this.button1_Click);
@@ -138,7 +121,6 @@
             this.ClientSize = new System.Drawing.Size(429, 403);
             this.ControlBox = false;
             this.Controls.Add(this.mainTitle1);
-            this.Controls.Add(this.LibButton3);
             this.Controls.Add(this.mainExit);
             this.Controls.Add(this.libButton2);
             this.Controls.Add(this.libButton1);
@@ -160,7 +142,6 @@
         private System.Windows.Forms.Button libButton1;
         private System.Windows.Forms.Button libButton2;
         private System.Windows.Forms.PictureBox mainExit;
-        private System.Windows.Forms.Button LibButton3;
         private System.Windows.Forms.PictureBox mainTitle1;
     }
 }

@@ -31,10 +31,5 @@ namespace AI3_A_Team_CSharp_Project
         {
             new Lib2().Show();
         }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            new Lib3().Show();
-        }
     }
 }
