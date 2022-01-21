@@ -54,6 +54,8 @@
             // LibButton3
             // 
             this.LibButton3.BackColor = System.Drawing.SystemColors.Highlight;
+            this.LibButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.LibButton3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LibButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.LibButton3.Font = new System.Drawing.Font("D2Coding", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.LibButton3.Image = global::AI3_A_Team_CSharp_Project.Properties.Resources.icons8_favorites_40px;
@@ -84,7 +86,7 @@
             // libButton2
             // 
             this.libButton2.BackColor = System.Drawing.SystemColors.Highlight;
-            this.libButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.libButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.libButton2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.libButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.libButton2.Font = new System.Drawing.Font("D2Coding", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -102,7 +104,7 @@
             // libButton1
             // 
             this.libButton1.BackColor = System.Drawing.SystemColors.Highlight;
-            this.libButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.libButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.libButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.libButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.libButton1.Font = new System.Drawing.Font("D2Coding", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -121,6 +123,7 @@
             // 
             this.mainPic.BackColor = System.Drawing.SystemColors.Control;
             this.mainPic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.mainPic.Cursor = System.Windows.Forms.Cursors.Default;
             this.mainPic.Image = global::AI3_A_Team_CSharp_Project.Properties.Resources.books_g586cb9803_640;
             this.mainPic.Location = new System.Drawing.Point(-130, -1);
             this.mainPic.Name = "mainPic";
@@ -133,6 +136,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(429, 403);
+            this.ControlBox = false;
             this.Controls.Add(this.mainTitle1);
             this.Controls.Add(this.LibButton3);
             this.Controls.Add(this.mainExit);
