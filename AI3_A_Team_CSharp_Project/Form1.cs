@@ -16,5 +16,20 @@ namespace AI3_A_Team_CSharp_Project
         {
             InitializeComponent();
         }
+
+        private void mainExit_Click(object sender, EventArgs e)
+        {
+            Dispose();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new Lib1().Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new Lib2().Show();
+        }
     }
 }

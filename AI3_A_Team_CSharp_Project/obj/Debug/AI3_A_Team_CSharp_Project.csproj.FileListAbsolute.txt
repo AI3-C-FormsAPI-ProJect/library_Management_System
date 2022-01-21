@@ -1,0 +1,11 @@
+C:\Users\user\source\repos\library_Management_System-main\AI3_A_Team_CSharp_Project\bin\Debug\AI3_A_Team_CSharp_Project.exe.config
+C:\Users\user\source\repos\library_Management_System-main\AI3_A_Team_CSharp_Project\bin\Debug\AI3_A_Team_CSharp_Project.exe
+C:\Users\user\source\repos\library_Management_System-main\AI3_A_Team_CSharp_Project\bin\Debug\AI3_A_Team_CSharp_Project.pdb
+C:\Users\user\source\repos\library_Management_System-main\AI3_A_Team_CSharp_Project\obj\Debug\AI3_A_Team_CSharp_Project.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\library_Management_System-main\AI3_A_Team_CSharp_Project\obj\Debug\AI3_A_Team_CSharp_Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\source\repos\library_Management_System-main\AI3_A_Team_CSharp_Project\obj\Debug\AI3_A_Team_CSharp_Project.Form1.resources
+C:\Users\user\source\repos\library_Management_System-main\AI3_A_Team_CSharp_Project\obj\Debug\AI3_A_Team_CSharp_Project.Properties.Resources.resources
+C:\Users\user\source\repos\library_Management_System-main\AI3_A_Team_CSharp_Project\obj\Debug\AI3_A_Team_CSharp_Project.csproj.GenerateResource.cache
+C:\Users\user\source\repos\library_Management_System-main\AI3_A_Team_CSharp_Project\obj\Debug\AI3_A_Team_CSharp_Project.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\library_Management_System-main\AI3_A_Team_CSharp_Project\obj\Debug\AI3_A_Team_CSharp_Project.exe
+C:\Users\user\source\repos\library_Management_System-main\AI3_A_Team_CSharp_Project\obj\Debug\AI3_A_Team_CSharp_Project.pdb
