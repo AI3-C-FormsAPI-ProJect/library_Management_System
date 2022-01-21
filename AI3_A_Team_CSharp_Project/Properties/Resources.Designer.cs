@@ -63,6 +63,16 @@ namespace AI3_A_Team_CSharp_Project.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap books_g586cb9803_640 {
+            get {
+                object obj = ResourceManager.GetObject("books-g586cb9803_640", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap bookshelves_gaa6ae3b3d_640 {
             get {
                 object obj = ResourceManager.GetObject("bookshelves-gaa6ae3b3d_640", resourceCulture);
@@ -86,6 +96,26 @@ namespace AI3_A_Team_CSharp_Project.Properties {
         internal static System.Drawing.Bitmap icons8_combo_chart_40px {
             get {
                 object obj = ResourceManager.GetObject("icons8_combo_chart_40px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_cs_120px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_cs_120px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_cs_64px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_cs_64px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

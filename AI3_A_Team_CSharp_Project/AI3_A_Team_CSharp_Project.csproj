@@ -125,5 +125,14 @@
   <ItemGroup>
     <None Include="Resources\icons8_favorites_40px.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\books-g586cb9803_640.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_cs_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_cs_120px.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
