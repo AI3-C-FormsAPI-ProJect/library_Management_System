@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7deeca68-1404-48b4-8555-bee9cc1e3b1a": {
+      "ProjectGuid": "7deeca68-1404-48b4-8555-bee9cc1e3b1a",
+      "DisplayName": "popularityBookApi",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
