@@ -1,0 +1,11 @@
+C:\C#-yong\popularityBookApi\popularityBookApi\bin\Debug\popularityBookApi.exe.config
+C:\C#-yong\popularityBookApi\popularityBookApi\bin\Debug\popularityBookApi.exe
+C:\C#-yong\popularityBookApi\popularityBookApi\bin\Debug\popularityBookApi.pdb
+C:\C#-yong\popularityBookApi\popularityBookApi\obj\Debug\popularityBookApi.csproj.AssemblyReference.cache
+C:\C#-yong\popularityBookApi\popularityBookApi\obj\Debug\popularityBookApi.csproj.SuggestedBindingRedirects.cache
+C:\C#-yong\popularityBookApi\popularityBookApi\obj\Debug\popularityBookApi.Form1.resources
+C:\C#-yong\popularityBookApi\popularityBookApi\obj\Debug\popularityBookApi.Properties.Resources.resources
+C:\C#-yong\popularityBookApi\popularityBookApi\obj\Debug\popularityBookApi.csproj.GenerateResource.cache
+C:\C#-yong\popularityBookApi\popularityBookApi\obj\Debug\popularityBookApi.csproj.CoreCompileInputs.cache
+C:\C#-yong\popularityBookApi\popularityBookApi\obj\Debug\popularityBookApi.exe
+C:\C#-yong\popularityBookApi\popularityBookApi\obj\Debug\popularityBookApi.pdb
