@@ -1,0 +1,11 @@
+C:\Users\q_q17\Desktop\프로젝트 목록\c#\API\bin\Debug\API.exe.config
+C:\Users\q_q17\Desktop\프로젝트 목록\c#\API\bin\Debug\API.exe
+C:\Users\q_q17\Desktop\프로젝트 목록\c#\API\bin\Debug\API.pdb
+C:\Users\q_q17\Desktop\프로젝트 목록\c#\API\obj\Debug\API.csproj.AssemblyReference.cache
+C:\Users\q_q17\Desktop\프로젝트 목록\c#\API\obj\Debug\API.csproj.SuggestedBindingRedirects.cache
+C:\Users\q_q17\Desktop\프로젝트 목록\c#\API\obj\Debug\API.Properties.Resources.resources
+C:\Users\q_q17\Desktop\프로젝트 목록\c#\API\obj\Debug\API.csproj.GenerateResource.cache
+C:\Users\q_q17\Desktop\프로젝트 목록\c#\API\obj\Debug\API.csproj.CoreCompileInputs.cache
+C:\Users\q_q17\Desktop\프로젝트 목록\c#\API\obj\Debug\API.exe
+C:\Users\q_q17\Desktop\프로젝트 목록\c#\API\obj\Debug\API.pdb
+C:\Users\q_q17\Desktop\프로젝트 목록\c#\API\obj\Debug\API.Form4.resources
