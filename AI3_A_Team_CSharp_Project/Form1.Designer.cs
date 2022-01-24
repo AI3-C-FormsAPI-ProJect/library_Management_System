@@ -28,11 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.mainTitle1 = new System.Windows.Forms.PictureBox();
             this.mainExit = new System.Windows.Forms.PictureBox();
             this.libButton2 = new System.Windows.Forms.Button();
             this.libButton1 = new System.Windows.Forms.Button();
             this.mainPic = new System.Windows.Forms.PictureBox();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.mainTitle1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mainExit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mainPic)).BeginInit();
@@ -63,6 +65,7 @@
             this.mainExit.TabIndex = 3;
             this.mainExit.TabStop = false;
             this.mainExit.Click += new System.EventHandler(this.mainExit_Click);
+            this.mainExit.MouseHover += new System.EventHandler(this.mainExit_MouseHover);
             // 
             // libButton2
             // 
@@ -70,7 +73,7 @@
             this.libButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.libButton2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.libButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.libButton2.Font = new System.Drawing.Font("D2Coding", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.libButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.libButton2.ForeColor = System.Drawing.Color.White;
             this.libButton2.Image = global::AI3_A_Team_CSharp_Project.Properties.Resources.icons8_favorites_80px;
             this.libButton2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -89,7 +92,7 @@
             this.libButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.libButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.libButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.libButton1.Font = new System.Drawing.Font("D2Coding", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.libButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.libButton1.ForeColor = System.Drawing.Color.White;
             this.libButton1.Image = global::AI3_A_Team_CSharp_Project.Properties.Resources.icons8_literature_80px_1;
             this.libButton1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -143,6 +146,7 @@
         private System.Windows.Forms.Button libButton2;
         private System.Windows.Forms.PictureBox mainExit;
         private System.Windows.Forms.PictureBox mainTitle1;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
 

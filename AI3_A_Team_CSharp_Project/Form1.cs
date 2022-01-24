@@ -31,5 +31,11 @@ namespace AI3_A_Team_CSharp_Project
         {
             new Lib2().Show();
         }
+
+        private void mainExit_MouseHover(object sender, EventArgs e)
+        {
+            this.toolTip1.SetToolTip(this.mainExit, "종료하기");
+        }
     }
 }
+
