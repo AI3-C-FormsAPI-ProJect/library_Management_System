@@ -36,6 +36,21 @@ namespace AI3_A_Team_CSharp_Project
         {
             this.toolTip1.SetToolTip(this.mainExit, "종료하기");
         }
+
+        private Point mPoint;
+
+        private void Form1_MouseDown(object sender, MouseEventArgs e)
+        {
+            mPoint=new Point(e.X,e.Y);
+        }
+
+        private void Form1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if((e.Button & MouseButtons.Left) == MouseButtons.Left)
+            {
+                Location = new Point(this.Left - (mPoint.X - e.X), this.Top - (mPoint.Y - e.Y));
+            }
+        }
     }
 }
 

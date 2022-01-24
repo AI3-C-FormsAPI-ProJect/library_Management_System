@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.mainTitle1 = new System.Windows.Forms.PictureBox();
             this.mainExit = new System.Windows.Forms.PictureBox();
             this.libButton2 = new System.Windows.Forms.Button();
@@ -116,6 +117,8 @@
             this.mainPic.Size = new System.Drawing.Size(721, 502);
             this.mainPic.TabIndex = 0;
             this.mainPic.TabStop = false;
+            this.mainPic.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
+            this.mainPic.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
             // 
             // Form1
             // 
@@ -129,9 +132,12 @@
             this.Controls.Add(this.libButton1);
             this.Controls.Add(this.mainPic);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
             ((System.ComponentModel.ISupportInitialize)(this.mainTitle1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.mainExit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.mainPic)).EndInit();
