@@ -19,7 +19,7 @@ namespace AI3_A_Team_CSharp_Project
             string query = $"{site}?target=title&query={qstr}&size=20";//20개씩 가져오기
             WebRequest request = WebRequest.Create(query);
 
-            string rkey = "";
+            string rkey = "340923355090302ac7b83142e22ba219";
             string header = "KakaoAK " + rkey;
             request.Headers.Add("Authorization", header);// 헤더에 옵션값 추가
 

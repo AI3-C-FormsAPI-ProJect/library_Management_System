@@ -34,5 +34,23 @@ namespace AI3_A_Team_CSharp_Project
                     button1.PerformClick();
             }
         }
+
+        private void textBox1_Enter(object sender, EventArgs e)
+        {
+            if(textBox1.Text == "책 이름 검색")
+            {
+                textBox1.Text = "";
+                textBox1.ForeColor=Color.Black;
+            }
+        }
+
+        private void textBox1_Leave(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "")
+            {
+                textBox1.Text = "책 이름 검색";
+                textBox1.ForeColor = Color.Gray;
+            }
+        }
     }
 }
