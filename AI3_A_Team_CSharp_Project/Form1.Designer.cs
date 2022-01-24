@@ -97,7 +97,7 @@
             this.libButton1.Name = "libButton1";
             this.libButton1.Size = new System.Drawing.Size(158, 122);
             this.libButton1.TabIndex = 1;
-            this.libButton1.Text = "도서관별 장서&&\r\n대출현황";
+            this.libButton1.Text = "도서 검색";
             this.libButton1.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.libButton1.UseVisualStyleBackColor = false;
             this.libButton1.Click += new System.EventHandler(this.button1_Click);
